@@ -1,0 +1,77 @@
+<html>
+<head>
+
+<script src="https://use.typekit.net/fhr0vwf.js"></script>
+<script src="https://d3js.org/d3-time.v1.min.js"></script>
+<script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+<body>
+<style>
+#line-chart{
+	width:500px;
+}
+#button-space{
+	width:500px;
+	
+}
+.buttons{
+	text-align:center;
+	margin:5px;
+	font-family:'proxima nova',sans-serif;
+	font-weight:100;
+	background-color: '#152C55';
+	color: '#fff';
+	border-radius:3px;
+	font-size:12px;
+	padding:3px 7px 3px 7px;
+	display:inline-block;
+}
+.buttons:hover{
+	cursor:pointer;
+}
+.y-axis{
+	font-family:'proxima nova',sans-serif;
+	font-weight:700;
+}
+.chart-title{
+	font-family:'proxima nova',sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:17px;
+}
+#tooltip{
+	font-family:'proxima nova',sans-serif;
+	box-shadow: 2px 2px 2px #fafafa;
+	border-style:solid;
+	border-width:1px;
+	border-radius:3px;
+	border-color:#d3d3d3;
+	padding:0px 3px 0px 3px;
+	width:auto;
+	position:absolute;
+	background-color:#fff;
+}
+#info{
+	font-size:12px;
+	font-weight:700;
+}
+#more-info{
+	font-size:12px;
+}
+.button-active{
+	background-color:'purple';
+}
+</style>
+
+<div id="target"></div>
+
+<script src='node_modules/jquery/dist/jquery.min.js'></script>
+<script src='node_modules/d3/build/d3.min.js'></script>
+<script src='node_modules/lodash/lodash.min.js'></script>
+<script src="node_modules/d3-extended/d3-extended.min.js"></script>
+<script src='index.js'></script>
+
+</body>
+</html> 
